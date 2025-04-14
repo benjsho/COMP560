@@ -1,7 +1,127 @@
-{"prompt": "[Context: Player interacts with rich businessman] Player: ", "response": "Rich businessman: You look so helpless. Are you okay ?"}
-{"prompt": "[Context: Player digs in trash can] Player: ", "response": "Player dug around in the trash can. Well, let's see here...
-There is a Hamburger inside ! Player takes it."}
-{"prompt": "[Context: Player digs in trash can] Player: ", "response": "There was just plain ol' garbage in the trash can."}
-{"prompt": "[Context: ] Player: ", "response": ""}
 
-{"prompt": "[Context: ] Player: ", "response": ""}
+//currently only including context if it is relevant to the response
+//(i.e. who cares if the player is in a desert when he receives some generic response)
+//Onett outside
+{"context": "[Context: Player interacts with rich businessman]", "response": "Rich businessman: You look so helpless. Are you okay ?"}
+{"context": "[Context: Player digs in trash can]", "response": "Player dug around in the trash can. Well, let's see here... There is a Hamburger inside ! Player takes it."}
+{"context": "[Context: Player digs in trash can]", "response": "There was just plain ol' garbage in the trash can."}
+{"context": "[Context: Player interacts with a dog]", "response": "Bow-wow ! (Don't you think you'll be needing a weapon ? Did you know the drug store sells things you can use ? ...I knew about it.)"}
+{"context": "[Context: Player interacts with librarian]", "response": "Librarian: A library is a nice place to learn stuff. I got a lot of info about EarthBound. You can borrow maps for nothing !"}
+{"context": "[Context: Player interacts with boy outside an arcade taken over by a street gang]", "response": "Boy: The arcade is full of Sharks. I can't play there."}
+{"context": "[Context: Player interacts with old lady]", "response": "Old Lady: If one of your friends becomes unconscious, you should visit them at the hospital. You should check with the nurse receptionist, and she will release your friend. It's a nice thing to remember, but it's all right if you forget."}
+{"context": "[Context: Player interacts with rich woman]", "response": "This town is out of control. The wild boys are hanging out in the town and the cops have really been cracking down on everyone. I'm considering moving to Twoson, a town in the south."}
+{"context": "[Context: Player interacts with weirdo]", "response": "Weirdo: The point overlooking the sea has beautiful scenery. It's over thataway. Such a beautiful place gets me all choked up."}
+{"context": "[Context: Player interacts with hippie]", "response": "Hippie: A girl named Paula lives in Twoson. Her mother runs a preschool out of their home. I can't remember the name of the school, but I heard Paula's really special. Why is she special ? I forgot to ask. Oh, well..."}
+{"context": "[Context: Player knocks on door]", "response": "Are you Player ? My son said something about going to a hide-out. I don't know what he was talking about."}
+{"context": "[Context: Player knocks on door]", "response": "W-Wh-Who's there ? It's creepy in here. What, you won't answer ?"}
+{"context": "[Context: Player knocks on door]", "response": "If you're trying to sell us the newspaper, go away ! We don't read the paper ! And we don't want any milk, either !"}
+{"context": "[Context: Player knocks on door]", "response": "Say something funny. I'll listen. ... ... Mmm, I can't wait any longer !"}
+{"context": "[Context: Player knocks on door]", "response": "The drug store is to the east ! ...East is the opposite of west !"}
+{"context": "[Context: Player knocks on door]", "response": "I'm going back to watching the news--it's funnier than you."}
+{"context": "[Context: Player interacts with young girl]", "response": "I moved here from the way, way, way away next town. In the next town, there is the... what is the name ? uh... Polar Star preschool. The preschool is at Paula's house. Paula uses... what is it called ? ...uh...magic."}
+{"context": "[Context: Player interacts with woman]", "response": "I wonder if EarthBound has been released yet."}
+{"context": "[Context: Player interacts with town citizen]", "response": "City Hall is to the east. You know, where the sun rises !"}
+{"context": "[Context: Player responds with 'Yes' to the prompt: When you're in trouble, do you think you'd ever like to have a hint ?]", "response": "Why don't you get a hint from the next house ?"}
+{"context": "[Context: Player responds with 'No' to the prompt: When you're in trouble, do you think you'd ever like to have a hint ?]", "response": "All righty then, you're on your own. Good luck !"}
+
+//Hint shop
+{"context": "[Context: Player interacts with Hint Man for the first time]", "response": "Now wait a minute, youngster ! I could give you a great hint for just $35.
+You'd like a hint, wouldn't you ?"}
+{"context": "[Context: Player accepts the Hint Man's hint]", "response": "It seems that the citizens of Onett have been harassed by those dang street punks called the Sharks. I wonder if going and talking to Frank, the leader of the Sharks, would do any good ? That's it for today."}
+{"context": "[Context: Player denies the Hint Man's hint]", "response": "So you're telling me that you don't want a hint ? You're either awfully confident or $35 is too much to pay. Anyway, a young man like you is very unusual these days. If you happen to need a hint, c'mon back ! I'm here all the time..."}
+{"context": "[Context: Player interacts with Hint Man again]", "response": "Do you want to hear the hint once more ? This is a special service just for you..."}
+{"context": "[Context: Player accepts the Hint Man's hint, but doesn't have enough money]", "response": "Oh, you don't have any money. Don't you understand ? This is how I make my living... I can't just give you a hint for free, kid."}
+
+//Bakery
+{"context": "[Context: Player interacts with Rich Lady]", "response": "I want to tell you the story of the creature from the vegetable soup, but I won't because I don't want to bother you with a story that has nothing to do with your adventure. If I keep talking about unrelated stuff, you might start ignoring important messages. It's important for you to talk to people. Also, a person might give you a different message, depending on when you speak to them."}
+{"context": "[Context: Player interacts with Rich Lady a second time]", "response": "Thank you for talking the time to talk to me again. Ah ! So you see what I mean ! It's important to take time out to talk with many people."}
+{"context": "[Context: Player interacts with Rich Lady a third time]", "response": "Yes ! Keep the lines of communication open. Just like you are doing now."}
+{"context": "[Context: Player interacts with lady in bakery]", "response": "I like cottage cheese on bread ! You haven't tried it ? It's the latest craze in culinary circles !"}
+{"context": "[Context: Player interacts with lady in bakery]", "response": "It seems like every bakery has been making lucky sandwiches these days. They're kind of like fortune cookies, except you can win stuff. Oh yeah, and it's a sandwich. Okay, so maybe it's not like a fortune cookie. Anyway, the best thing that can happen is 'recover PP.' I just wish I knew what 'PP[ was..."}
+{"context": "[Context: Player interacts with baker in bakery]", "response": "Hello. May I help you ? What shall I get you ?"}
+{"context": "[Context: Player buys item, but already has too many items]", "response": "You have so many belongings... You just can't carry any more !"}
+{"context": "[Context: Player buys item]", "response": "Thank you very much."}
+{"context": "[Context: Player buys item]", "response": "Please come again."}
+{"context": "[Context: Player buys item, but doesn't have enough money]", "response": "It seems like you don't have enough money. Do you have any other orders ?"}
+
+//Drug Store
+{"context": "[Context: Player speaks with teenager]", "response": "Hey, I know your hard-earned cash is important to you, but you should call your mom. She's probably got an ulcer from worrying about you."}
+{"context": "[Context: Player enters store]", "response": "Hi, come in, come in ! What can I do for you today ?"}
+{"context": "[Context: Player interacts with cashier]", "response": "Can I help you find something ?"}
+{"context": "[Context: Player asks to sell to cashier]", "response": "What do you want to sell ?"}
+{"context": "[Context: Player ends interaction with cashier]", "response": "Thanks a bunch !"}
+{"context": "[Context: Player buys item, but doesn't have enough money]", "response": "Oh no ! Don't tell me you don't have enough money !! Do you need anything else from me ?"}
+{"context": "[Context: Player doesn't buy an item]", "response": "You don't want to buy anything from me ? Oh, you hurt my feelings."}
+{"context": "[Context: Player tries to sell an important item]", "response": "Oh, no ! You can't sell that here."}
+{"context": "[Context: Player interacts with cashier]", "response": "Hello there ! How may I help you ?"}
+{"context": "[Context: Player interacts with cashier]", "response": "Can I get you anything ?"}
+{"context": "[Context: Player asks to sell to cashier]", "response": "What do you want to sell ?"}
+{"context": "[Context: Player buys item]", "response": "Can I get you anything else ? What would you like to get next ?"}
+{"context": "[Context: Player buys item, but doesn't have enough money]", "response": "Excuse me, uhhh... you don't seem to have enough money."}
+{"context": "[Context: Player tries to sell an important item]", "response": "I am sorry, but we cannot buy the ATM card."}
+{"context": "[Context: Player ends interaction with cashier]", "response": "Please come again."}
+{"context": "[Context: Player interacts with a dog]", "response": "Woof ! Woof ! (I'm Ruffini the dog. I'm being possessed by the spirit of the game designer... (RUFF !) Do you see the window showing HP and PP at the bottom of the screen ? When you got to a store that has equippable items, this window will either flash, look normal or become black. If you are allowed to equip an item, and it is stronger than your current item, the window will flash. If the item's power is equal to, or less than your current equipped item, the window looks normal. If you can't equip an item, the window is black. ''Ruff'' I thought you'd like to know. Now it's time to become a regular dog again..."}
+
+//Burger Shop
+{"context": "[Context: Player interacts with restaurant worker]", "response": "I'm so much more relaxed here... They never ask me 'Would you like fries with that shake ?'"}
+{"context": "[Context: Player interacts with rich lady in restaurant]", "response": "It seems like I'm always here... I hope you don't mind !"}
+{"context": "[Context: Player interacts with lady in restaurant]", "response": "Don't you think you get more food value out of 14 bucks worth of burgers than 8 bucks worth of french fries ? You'll feel better and more energetic if you eat better foods. You know--you'll recover more health if you eat more expensive food."}
+{"context": "[Context: Player interacts with waitress]", "response": "Hello, may I take your order ? (smile, smile) What can I get for you ?"}
+{"context": "[Context: Player buys item from waitress]", "response": "Thank you very much. (smile smile)"}
+{"context": "[Context: Player ends interaction with waitress]", "response": "Have a nice day ! (smile, smile)"}
+
+//Hotel Onett
+{"context": "[Context: Player interacts with doorman]", "response": "Welcome to Hotel Onett. A one night stay will cost you $35. Would you like to stay ?"}
+{"context": "[Context: Player buys room at hotel]", "response": "Have a nice stay."}
+{"context": "[Context: Player doesn't buy room at hotel]", "response": "See you next time."}
+{"context": "[Context: Player buys room at hotel, but doesn't have enough money]", "response": "It looks like you don't have $35..."}
+{"context": "[Context: Player interacts with doorman after sleeping at hotel]", "response": "Good morning. Did you sleep well ?"}
+{"context": "[Context: Player interacts with bellhop]", "response": "Our nightly rate is not cheap, but we have clean sheets, and the rooms are secure. I'm sure you understand that this keeps us very busy."}
+{"context": "[Context: Player interacts with bellhop in the morning]", "response": "Good morning ! Here's your free copy of the morning newspaper ! Here's today's headlines in the Onett Times... 'Mysterious meteorite north of Onett still burning brightly'"}
+{"context": "[Context: Player interacts with rich man]", "response": "Can you believe it ? A group of ruffians spit their gum on me as I was passing by..."}
+{"context": "[Context: Player interacts with rich woman]", "response": "You look like you'd be a real target for the Sharks. You'd better be careful."}
+
+//Hospital
+{"context": "[Context: Player interacts with weird woman at hospital]", "response": "Hello... and you are ...? Say, have you ever suffered from some type of sickness or condition that you couldn't get cured at a hospital ? For example, being 'Diamondized,' where your head gets as hard as a diamond... Or...'Mushroomized,' where you have a mushroom on your head... If you're ever stuck with these types of embarrassing conditions, we of the magic healing shrine are here to ease your pain. We're ready and waiting...in the lobby of hospitals all over the world. The person next to me is the great teacher of magic healing."}
+{"context": "[Context: Player interacts with weird man at hospital]", "response": "Though you may not believe it, I'm a healer. If you have some illness that can not be treated at the hospital, it's my job to care you. Do you need some help ?"}
+{"context": "[Context: Player is sick and interacts with weird man at hospital]", "response": "Hey, now that I notice, could you sell me the mushroom growing on top of your head ? Come on, let's make a deal."}
+{"context": "[Context: Player is sick and accepts the deal of weird man at hospital]", "response": "Thanks. I'll pay you $50 for each mushroom. All right, let's do it !"}
+{"context": "[Context: Player is sick and denies the deal of weird man at hospital]", "response": "Hmmmmm... That's too bad. By the way, do you need any help ?"}
+{"context": "[Context: Player is sick and accepts the deal of weird man at hospital, but doesn't have enough money]", "response": "If you don't have any money, you'll just have to keep on going in your current state."}
+{"context": "[Context: Player interacts with nurse in hospital]", "response": "I heard that around here, our doctor is No.1. Hee hee hee..."}
+{"context": "[Context: Player interacts with nurse in hospital]", "response": "I'm not busy right now. Shall I explain about the hospital system ?"}
+{"context": "[Context: Player interacts with nurse in hospital and asks for explanation of hospital system]", "response": "If a good friend of yours becomes unconscious, come to the hospital right away. As long as you have money for the doctor's fee, you'll be able to see your friend completely recovered in no time. Besides being unconscious, whenever you don't feel so well, come and talk to a doctor. Everything I just told you applies to hospitals all over the world."}
+{"context": "[Context: Player interacts with nurse in hospital and refuses explanation of hospital system]", "response": "Yeah, well, I am actually pretty busy."}
+{"context": "[Context: Player interacts with doctor in hospital]", "response": "I can examine each one of you for $20."}
+{"context": "[Context: Player pays doctor for hospital examination]", "response": "I don't think there is anything wrong with you."}
+{"context": "[Context: Player doesn't pay doctor for hospital examination]", "response": "You really don't need any treatment ? All right."}
+{"context": "[Context: Player is homesick and interacts with doctor]", "response": "...by the way, What a sad look in your eyes... you, the boy in a red cap. You must be homesick. That's nothing you need to be ashamed of. Anybody who is on a long trip will miss home. In this case, the best thing to do is to call home and hear your mom's voice."}
+{"context": "[Context: Player reads hospital sign]", "response": "'Tombstone Blow-out Sale' We have a special discount for those who have passed on in this hospital. What would you like written on your tombstone ? Onett Hospital Surgery Team)"}
+{"context": "[Context: Player interacts with woman in hospital]", "response": "What ? You're here to visit my daughter ? So you're the one who calls her in the middle of the night and talks for hours ! ...oh, it's not you. Then why did you come to this room ?"}
+{"context": "[Context: Player interacts with girl in hospital]", "response": "I was SMAAAAASHED by a mouse."}
+{"context": "[Context: Player interacts with man in hospital]", "response": "Welcome to Onett Hospital. I run the place. Ah... gotcha !! Sorry. I'm just a patient here."}
+{"context": "[Context: Player interacts with old lady in hospital]", "response": "When I came to visit my friend at this hospital, I somehow slipped and fell in the hallway. So now I'm staying in the hospital too. This could be the basis for a great, tragic tearjerker. Well, maybe not...!"}
+
+//Beak Point (crappy house)
+{"context": "[Context: Player interacts with sign outside shack]", "response": "Even if you're poor, come and see how easy it is to own a luxurious second home ! 'Beak Point Real Estate'"}
+{"context": "[Context: Player interacts with realtor]", "response": "Doesn't this house look good ? You can buy it for only $7500 ! It has an ocean view, and the sunsets are beautiful. Folks should have a place of their own. Do you want to buy it ?"}
+{"context": "[Context: Player buys house from realtor]", "response": "Thank you. It's all yours now. Take some time and relax."}
+{"context": "[Context: Player doesn't buy house from realtor]", "response": "You can't afford $7500 ? It was a waste of time talking to you."}
+{"context": "[Context: Player buys house from realtor]", "response": "Hey ! You've got your own place now !"}
+{"context": "[Context: Player interacts with desk]", "response": "You've found an old magazine. Are you going to read it ?"}
+{"context": "[Context: Player refuses to read magazine]", "response": "Good. That may be the best choice."}
+{"context": "[Context: Player interacts with musician]", "response": "I must be the happiest man in the world. I can practice my trumpet in this scenic spot. I'll send my haunting melody throughout the town !"}
+
+//Hideout
+{"context": "[Context: Player interacts with boy outside hideout]", "response": "Player, I'm doing watch-out duty for the hideout. Can you take over ?"}
+{"context": "[Context: Player accepts to watch over hideout]", "response": "Just kidding. Being watch-out is my job."}
+{"context": "[Context: Player refuses to watch over hideout]", "response": "You're busy. I understand."}
+{"context": "[Context: Player talks to boy with baseball cap]", "response": "I'll give you my Mr. Baseball cap, I know you've wanted it for a long time. It's the best cap for someone really brave like you. (Player got the Mr. Baseball cap.)"}
+{"context": "[Context: Player talks to boy with baseball cap again]", "response": "I'd like to go on an adventure with you once I become a little stronger."}
+{"context": "[Context: Player talks to weird boy]", "response": "You've grown since I last saw you. You're beginning to look like a man. You're so cool ! I... I think I really like you. Well, you know what I mean."}
+{"context": "[Context: Player talks to weird boy a second time]", "response": "You know what I mean."}
+{"context": "[Context: Player talks to boy]", "response": "I had a dream about you, and you were traveling with a cute girl. If the dream comes true, say hi to her for me. After all, I'm single..."}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
