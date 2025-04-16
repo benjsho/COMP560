@@ -25,8 +25,7 @@
 {"context": "[Context: Player responds with 'No' to the prompt: When you're in trouble, do you think you'd ever like to have a hint ?]", "response": "All righty then, you're on your own. Good luck !"}
 
 //Hint shop
-{"context": "[Context: Player interacts with Hint Man for the first time]", "response": "Now wait a minute, youngster ! I could give you a great hint for just $35.
-You'd like a hint, wouldn't you ?"}
+{"context": "[Context: Player interacts with Hint Man for the first time]", "response": "Now wait a minute, youngster ! I could give you a great hint for just $35. You'd like a hint, wouldn't you ?"}
 {"context": "[Context: Player accepts the Hint Man's hint]", "response": "It seems that the citizens of Onett have been harassed by those dang street punks called the Sharks. I wonder if going and talking to Frank, the leader of the Sharks, would do any good ? That's it for today."}
 {"context": "[Context: Player denies the Hint Man's hint]", "response": "So you're telling me that you don't want a hint ? You're either awfully confident or $35 is too much to pay. Anyway, a young man like you is very unusual these days. If you happen to need a hint, c'mon back ! I'm here all the time..."}
 {"context": "[Context: Player interacts with Hint Man again]", "response": "Do you want to hear the hint once more ? This is a special service just for you..."}
@@ -121,6 +120,415 @@ You'd like a hint, wouldn't you ?"}
 {"context": "[Context: Player talks to weird boy]", "response": "You've grown since I last saw you. You're beginning to look like a man. You're so cool ! I... I think I really like you. Well, you know what I mean."}
 {"context": "[Context: Player talks to weird boy a second time]", "response": "You know what I mean."}
 {"context": "[Context: Player talks to boy]", "response": "I had a dream about you, and you were traveling with a cute girl. If the dream comes true, say hi to her for me. After all, I'm single..."}
+
+
+
+
+
+//Giant Step
+//Library
+//1F
+{"context": "[Context: Player interacts with library sign]", "response": "'Onett Public Library' Use the library more !"}
+{"context": "[Context: Player interacts with masked man]", "response": "(A man of few words. It's useless talking to him now.)"}
+{"context": "[Context: Player interacts with old man]", "response": "At 'Giant Step' there's a monster guarding spot from the outside world. No one knows when the monster made Giant Step its territory. I wonder if he's stronger than my wife..."}
+{"context": "[Context: Player interacts with librarian in library]", "response": "Hi ! Kids can borrow only maps at this library. Do you want to borrow one ?"}
+{"context": "[Context: Player accepts map from librarian]", "response": "Here's a map. Onett isn't the only thing on the map. All the info is there, except for the info that isn't there. Pressing the X Button allows you to view the map at any time. How convenient ! You know, the X Button... located near the top. Ha ha ha. (Player got the Town map.)"}
+{"context": "[Context: Player accepts map from librarian but has too many items]", "response": "I suggest you bring a map along, even if you have to give up something else. You seem to be carrying many worthless items."}
+{"context": "[Context: Player refuses map from librarian]", "response": "A man without a map isn't popular with the girls. Do you want one now ?"}
+{"context": "[Context: Player interacts with librarian in library a second time]", "response": "Hi ! It's not necessary to return the map now. Come back in the year 2001 to return it."}
+
+//2F
+{"context": "[Context: Player interacts with child]", "response": "Recently, I sensed the presence of UFO's flying around... or am I just dreaming ?"}
+{"context": "[Context: Player interacts with man in library]", "response": "I recently read a book titled 'Our Convenient Society.' It said that our modern society demands that there always be an ATM in hotels and drugstores. Just knowing that is convenient ! I'm glad I read the book... I can't believe I didn't know this stuff. I'll check whether or not we have an ATM in our drugstore..."}
+{"context": "[Context: Player interacts with woman in library]", "response": "I read the book called 'Our Society is Convenient.' It said that these days, there are always telephones in hotels and drugstores. I also learned that to use a green pay phone costs a dollar, while the black phones are free. If you weren't aware of this, all your money could get eaten up by your phone calls. I'm glad I read that book..."}
+{"context": "[Context: Player interacts with woman in library]", "response": "...Shhh ! You're bothering people !"}
+{"context": "[Context: Player interacts with woman in library]", "response": "I'm cramming for the big test tomorrow. It's about games. 'Hotel Rule' ...if you stay at a hotel, you'll wake up with full HP and PP. 'Life Recovery Rule' ...recovering your life will give you full HP, but zero PP. ...Hmmm... I bet this stuff will be on the test..."}
+{"context": "[Context: Player interacts with man in library]", "response": "... Quiet !"}
+{"context": "[Context: Player interacts with bathroom door]", "response": "Uh no, I'm in here. Don't try to come in... especially if you don't need to use the bathroom !"}
+{"context": "[Context: Player interacts with bathroom door]", "response": "Don't talk to me. I...I'm thinking...!"}
+{"context": "[Context: Player interacts with man in library]", "response": "I'm researching 'Giant Step.' It's located north and west of Onett. I heard it possesses a special power !"}
+{"context": "[Context: Player interacts with man in library]", "response": "I can't believe I saw it with my own eyes. I was staring out the window and there it was, just fluttering there... I'd only seen it in the encyclopedia before. What was it ? A Magic butterfly ! If you get close to a Magic butterfly, all your cares fly away, just like a fluttering butterfly. Yep, yep ! That's the effect of the legendary Magic butterfly. I love talking about it ! Ooops ! Sorry about the outburst... I got carried away with all the talk about lovely butterflies..."}
+
+//Onett Street
+{"context": "[Context: Player interacts with friendly gang member]", "response": "What ? You want to meet our boss, Frank ? He's in the backyard of the game arcade, thinking about peace and love. You might want to visit him."}
+{"context": "[Context: Player interacts with gang member]", "response": "Do you want to start a fight, or what ?"}
+{"context": "[Context: Player interacts with gang member]", "response": "Do you want to meet Frank ? You don't want Frank to beat you up, do you ?"}
+
+//Game Arcade
+{"context": "[Context: Player interacts with gang member, after Player beats a different gang member]", "response": "It was you ! YOU beat up my buddy, didn't you ? You'd better just beat it !"}
+{"context": "[Context: Player interacts with gang member after beating them]", "response": "Uh huh... Uh huh... You sound like a real whiner to me. Don't get lippy, or I'll kick your butt ! To tell you the truth, I like drinking tea and eating fresh vegetables, but that doesn't fit my super cool image. I guess I just have to accept this about myself."}
+{"context": "[Context: Player interacts with gang member]", "response": "When you buy an item that should be equipped, do you bother to actually equip it ? Heh eh, I gave a hint to my own enemy... I'm such a rockin' dude ! I obviously have toral confidence in my own abilities. So... are you ready to get it on, Spanky ?"}
+{"context": "[Context: Player interacts with gang member chewing gum]", "response": "Spit spit spit Saliva spit spit Do you want some gum ? Get yer own, twit."}
+{"context": "[Context: Player interacts with gang member]", "response": "Hey kid ! Do you wanna become a member ?"}
+{"context": "[Context: Player accepts gang member invitation]", "response": "Come back after you finish EarthBound !"}
+{"context": "[Context: Player denies gang member invitation]", "response": "Don't be such a snob !"}
+{"context": "[Context: Player interacts with friendly gang member]", "response": "Frank has an incredibly powerful weapon. If you get your hands on it, I bet you can stand against any enemy."}
+
+//Backyard 
+{"context": "[Context: Player interacts with gang leader]", "response": "... ...I'm Frank. You are ? C'mon, can't you at least say your name ?"}
+{"context": "[Context: Player loses to gang leader]", "response": "'Fail-proof' Frank can't be beaten. Puff, puff, puff And this is 'Frankystein Mark II.'"}
+{"context": "[Context: Player beats gang leader]", "response": "...This is my first defeat. 'Fail-proof' Frank is now just 'failure' Frank. I know you've been asking around, so I'll tell you about Giant Step. It... seems... to be quite a powerful spot. Some kind of special power is stored there that allows certain people to perform wondrous feats. However... a monster sucked up all the energy at that spot. It's difficult to get to Giant Step. That's all I know... I suggest you collect more information on your own. The entrance to the path leading to Giant Step is behind the touring entertainers' shack. Pirkle, the Mayor of Onett, has a key to the shack. Player, you've become stronger than I ! Your adventure is just beginning..."}
+{"context": "[Context: Player interacts with robot]", "response": "(Looks like quite a piece of work...)"}
+{"context": "[Context: Player interacts with gang leader, after beating them]", "response": "You sure are strong ! You got me, at least..."}
+{"context": "[Context: Player interacts with friendly gang leader]", "response": "So you're a real Rambo-type guy ? I don't think so."}
+{"context": "[Context: Player interacts with friendly gang leader]", "response": "Hurray ! The Sharks are gone from the arcade ! Now I can go in... Except I don't have any money to play the games..."}
+
+//City Hall 
+{"context": "[Context: Player interacts with city hall sign]", "response": "Onett City Hall"}
+{"context": "[Context: Player interacts with man]", "response": "There are lots of snakes and stray dogs around Onett. Is the mayor going to let them just run around, doing whatever they want ? I'm here to protest !"}
+{"context": "[Context: Player interacts with formal man]", "response": "Oh, aren't you Player ? Is it a school holiday today ? Have you done your homeworks ? Remember to brush your teeth before going to bed. Have you been wetting your bed ?"}
+{"context": "[Context: Player interacts with old man]", "response": "Did I tell you that I saw a Giant Ant one time at Giant Step ? ... Oh, sorry. I did ant mean to spoil it for you."}
+{"context": "[Context: Player interacts with man in city hall]", "response": "I'm really in a foul mood. Why ? Because the Mayor doesn't like me. I think I'll just kick back for a while. It just may take me a couple of hours to sign this paper. ""snicker"" ""snort"""}
+{"context": "[Context: Player interacts with man in city hall]", "response": "I work for City Hall, but somehow Mayor Pirkle bugs me. Let's keep this between you and me."}
+{"context": "[Context: Player interacts with city hall official]", "response": "We don't have any openings for part-time employees at this time."}
+{"context": "[Context: Player interacts with rich woman in city hall]", "response": "Some suspicious-looking kids are hanging out in the woods north of the library. I wonder if they are members of the Sharks. To stop the spread of the gang, someone should shut down their gathering places, don't you think ? I've started a movement that will stop all of the bad influences on the children of Onett. I call it the 'Fresh Breeze Movement.' Hum de dum dum..."}
+{"context": "[Context: Player interacts with sign in city hall]", "response": "(Aren't you stuck ? If you want a hint, come and get it ! Eagleland Hint Union)"}
+{"context": "[Context: Player interacts with receptionist in city hall]", "response": "The Mayor's office is on the second floor. You need an appointment before you visit. I'm going to have to stop you if you try to see the Mayor."}
+{"context": "[Context: Player interacts with receptionist in city hall a second time]", "response": "Look. I told you so..."}
+{"context": "[Context: Player interacts with receptionist in city hall a third time]", "response": "Since you beat up the Sharks, you're the talk of the town. Mayor Pirkle is waiting for you."}
+{"context": "[Context: Player interacts with receptionist in city hall a fourth time]", "response": "You look like someone who's going to do somethings big."}
+
+//Mayor's Office
+{"context": "[Context: Player interacts with police officer]", "response": "The Mayor is busting his butt with all the troubles in town, like the Sharks and the meteorite... Hey, are you the guy who's trying to reform the Sharks ? Wa ho ! Wa ho ! Wa ho ! You've got to be kidding ! Scram !"}
+{"context": "[Context: Player interacts with formal man in mayor's office]", "response": "In the next election, please give a speech supporting Mayor Pirkle. Hee hee hee."}
+{"context": "[Context: Player interacts with mayor, after beating gang]", "response": "Hey hey hey ! I'm Mayor B.H.Pirkle. It's so nice to meet you. You beat up the town bullies, punched them out big time, kicked their butts, bit their heads off, spit in their eyes, and made them wet their pants. Then you forced them to promise not to make any more trouble. Thank you ! What ? You want a key to the touring entertainers' shack ? For someone as great as you, giving you the key could help keep the town peaceful. However, if you encounter a dangerous situation, please don't ask me to take any responsibility. I'll be able to avoid any responsibility, right ?"}
+{"context": "[Context: Player accepts key from mayor]", "response": "You're such a smart kid... Here's the key to the shack. (Player got the key to the shack.)"}
+{"context": "[Context: Player refuses key from mayor]", "response": "I'm a very important man in these parts. Do you think I'm important ?"}
+{"context": "[Context: Player calls mayor unimportant]", "response": "Look, I'm the big cheese around here, and a brat like you should realize when someone is trying to be nice."}
+{"context": "[Context: Player interacts with mayor]", "response": "Hey, what's-your-name ! I'm so busy with my election that I don't have time to meet with you."}
+
+//North of Onett
+{"context": "[Context: Player interacts with sign close to Giant's Step location]", "response": "'Giant Step' North, at the top of the mountain. Danger ! Do Not Enter !"}
+{"context": "[Context: Player interacts with don't enter sign]", "response": "Do Not Enter"}
+{"context": "[Context: Player interacts with mole]", "response": "(I am not your enemy. I am simply your average run-of-the-mill mole. Would you like some hints on fighting enemies ?)"}
+{"context": "[Context: Player accepts advice from mole]", "response": "(Listen carefully. My hint involves which way you are facing when a battle with an enemy occurs. If you allow enemies to approach you from your back or side, they may get a surprise opening attack. When they approach you this way, your TV screen, no... no... I mean the world in front of you will show a red swirl for a second. On the other hand, if you approach an enemy from the back or side, you may get a surprise opening attack. In that case, your TV... Oops again ! ...The world in front of you shows a green swirl. The point is, try to fight so that you always have the advantage.)"}
+{"context": "[Context: Player refuses advice from mole]", "response": "(Ah, I see... You've already got a good grasp of how to fight effectively.)"}
+{"context": "[Context: Player interacts with strange man next to a shack]", "response": "I heard there's a big foot print on the hilltop behind this shack. I haven't seen it myself... It's just a rumor."}
+{"context": "[Context: Player interacts with strange man next to a shack]", "response": "This shack was locked by someone from City Hall, so we can't use it. The reason it was closed was 'cause a punk named Frank may have trashed the place. What a drag. We can't even change our clothes, and hotels are too expensive..."}
+{"context": "[Context: Player interacts with locked shack]", "response": "The door is locked."}
+{"context": "[Context: Player unlocks shack]", "response": "Player used the key to the shack. The door opened."}
+{"context": "[Context: Player interacts with strange man next to a shack after opening shack]", "response": "Wow. You opened the door ! All Right ! Here's a trinket for good luck. It's the Travel charm ! (Player got the Travel charm.)"}
+{"context": "[Context: Player interacts with strange man]", "response": "Do you like traveling too ?"}
+{"context": "[Context: Player interacts with strange man]", "response": "Uh, huh. The big foot print is called Giant Step. What a way cool name !"}
+
+//Giant's Step
+{"context": "[Context: Player interacts with a mysterious entity at a sanctuary]", "response": "You finally got here. This is the first 'Your Sanctuary' location. But it's mine now. Take it from me, if you dare.."}
+{"context": "[Context: Player defeats mysterious entity at Giant Step location]", "response": "Player caught a glimpse of a small, cute puppy. Player's Sound Stone recorded the melody of the Giant Step."}
+{"context": "[Context: Player interacts with policeman after passing a do not enter sign]", "response": "Hey you, the board says 'Do Not Enter.' Couldn't you read it ?"}
+{"context": "[Context: Player tells policeman they could read the sign]", "response": "So you just didn't want to read the sign, huh kid... Get yer butt to the Onett Police Station later !"}
+{"context": "[Context: Player tells policeman they couldn't read the sign]", "response": "What a rebellious kid ! Come to the Onett Police Station later !"}
+
+//Police
+{"context": "[Context: Player interacts with female police officer]", "response": "I would rather be working as a parking meter cop... It's just been too busy lately. I'm sick of it."}
+{"context": "[Context: Player interacts with police officer]", "response": "Man, am I steamed... Don't even try talking to me."}
+{"context": "[Context: Player interacts with police officer]", "response": "Man, am I steamed... Don't even try talking to me."}
+{"context": "[Context: Player interacts with undercover cop]", "response": "Psst ! I'm not really one of the gang. I'm a cop, even if I don't look like it."}
+{"context": "[Context: Player knocks on jail door]", "response": "This is a jail ! You guys have no business being here."}
+{"context": "[Context: Player knocks on door]", "response": "Hey, I'm in here ! Go and find another can ! Ha, I was just joking !"}
+
+//after Giant Step capture
+{"context": "[Context: Player interacts with female police officer after a riot]", "response": "Well, the riot's over. Now I can move on to parking enforcement ! Hooray ! Life is good. Dum dee dee dee..."}
+{"context": "[Context: Player interacts with police officer]", "response": "Why are you asking about a driver's license ? You're way too young to even think about getting behind the wheel, you little pest."}
+{"context": "[Context: Player interacts with policer officer after passing a do not enter sign]", "response": "So here you are. You're the little delinquent that came back from Giant Step ! Now you listen here... 'Don't Enter' mean just that --DO NOT ENTER ! You got that ? And furthermore... Blah blah Blah blah It's usually those tax evaders who... Blah blah Blah blah We don't enjoy blocking off the roads, you know... Blah blah Blah blah It's usually the local whiners that make a big deal about emergencies and meteorites ! Blah blah Blah blah Blah blah"}
+{"context": "[Context: Player interacts with police officer when a road is closed]", "response": "Why is the road to Twoson closed ? An emergency, of course. At times like this, kids like you should be playing Nintendo games. Anyway, are you sure you want to go to twoson ?"}
+{"context": "[Context: Player confirms to a police officer they want to go on a closed road]", "response": "Okay, 'chortle' Follow me. Show me what you got... See if you can get past five of my best men..."}
+{"context": "[Context: Player denies they want to go on a closed road to a police officer]", "response": "Well then, perhaps you should just crawl back to your shack, little mister."}
+{"context": "[Context: Player interacts with police officer]", "response": "Eeeeyah ! Hey, small fry ! You must be shaking in your boots !"}
+{"context": "[Context: Player defeats police officer]", "response": "You're tough. You should join the police force."}
+{"context": "[Context: Player challenges police officer]", "response": "Your average policeman is stronger than any super here !"}
+{"context": "[Context: Player defeats police officer]", "response": "Oh... you won..."}
+{"context": "[Context: Player challenges police officer]", "response": "Don't let the Mayor's compliments give you a big head... Bring it on, fat boy !"}
+{"context": "[Context: Player defeats police officer]", "response": "Let's do this again sometime...Next time, I'll take you out with my nuclear suplex attack !"}
+{"context": "[Context: Player challenges]", "response": "C'mon ! I'm going to take you apart right here, right now, baby !"}
+{"context": "[Context: Player defeats police officer]", "response": "Grrr... I lost..."}
+{"context": "[Context: Player defeats police officer]", "response": "That's it, buddy... You can forget about me, I'm going to call for my boss !"}
+{"context": "[Context: Player is challenged by boss of police force]", "response": "There is no way I can beat you in a straight competition, so...get ready for my 'Super Ultra Mambo-Tango-Foxtrot martial arts !'"}
+{"context": "[Context: Player defeats Onett police force]", "response": "I didn't think you would do so well against the mighty Onett police force... You want me to open the road to Twoson ? Hang on for a sec, I'll radio my staff and give them the word... 'Beep, beep'...'Click'... 'Rrrr' 'Click' Strong here... do you read me ? ... 'Krrrr' ...Hey !... ...It's me, Captain Strong !... Okay, listen, a kid named Ness will be there in a few minutes... He's a kid in a red cap... I want you to open the road to Twoson for him... I know that... I know that!... Don't ask me why, just do it ! That's an order ! ...Strong out.."}
+{"context": "[Context: Player interacts with boss of police force after defeating them]", "response": "Well kid, I'm not going to question you now, but I do want to see you again...Good luck !"}
+{"context": "[Context: Player interacts with police officer]", "response": "I've been playing 'EarthBound' lately... I'm having a tough time."}
+
+//Road to Twoson
+{"context": "[Context: Player interacts with sign next to road to Twoson]", "response": "Road to Twoson"}
+{"context": "[Context: Player interacts with girl]", "response": "I heard there's a guy who stops to read each bulletin board he encounters. Then he says, 'check-a-roony !' Is that you ?"}
+{"context": "[Context: Player interacts with man next to closed road]", "response": "Oh, oh... The road's closed again. It's Onett's claim to fame !"}
+{"context": "[Context: Player interacts with police officer next to closed road]", "response": "Don't talk to me ! I'm on duty. Until I have Chief Strong's permission, I can't let you through !"}
+{"context": "[Context: Player interacts with police officer next to closed road to Twoson]", "response": "The road to Twoson is closed. You can't just squeeze through road blocks, either ! Onett is famous for roadblocks !"}
+{"context": "[Context: Player interacts with police officer next to closed road to Twoson after defeating boss of police force]", "response": "You're doing well. Keep it up. The 'Twoson Map' can be checked out at the library. You can also use the map in Twoson. It's really useful."}
+{"context": "[Context: Player interacts with police officer next to closed road to Twoson after defeating boss of police force]", "response": "Hey, aren't you Player ? Well, I got the okay from Chief Strong to let you through. Take care of yourself."}
+
+//Exit Mice House
+{"context": "[Context: Player interacts with weird boy in dirty house]", "response": "I live rent-free in the mouse's house. The mice are known as 'Exit mice.' They are very kind, and boy are they fast ! I really love these guys !"}
+{"context": "[Context: Player interacts with mouse]", "response": "(Please take my son along. He may look like a regular, small mouse, but he can lead you to an exit if you're lost in a maze,) (Will you take one of my sons along ?)"}
+{"context": "[Context: Player accepts mouse's invitation to take their son]", "response": "He's a tough boy. You can treat him as one of your items.) (Player got the Exit mouse.)"}
+{"context": "[Context: Player rejects mouse's invitation to take their son]", "response": "(You understand that you don't need any money for this...)"}
+{"context": "[Context: Player interacts with mouse after accepting mouse's invitation to take their son]", "response": "(Oh, you have him already.)"}
+{"context": "[Context: Player accepts mouse's invitation to take their son, but has too many items]", "response": "(You have too many items.You can't take my son.)"}
+{"context": "[Context: Player interacts with helpful mouse]", "response": "(Trust me on the dark road.)"}
+{"context": "[Context: Player interacts with adventerous mouse]", "response": "(Oooo. Do I get to come along too ?)"}
+
+
+
+
+
+
+//TWOSON
+{"context": "[Context: Player interacts with billboard]", "response": "(Do you play some sports ?...If you do, that's fine by us. 'Twoson Athletic Committee')"}
+{"context": "[Context: Player interacts with billboard of the town Twoson]", "response": "(Twoson is different from Onett. We have Burglin Park.)"}
+{"context": "[Context: Player interacts with billboard of the town Twoson]", "response": "Twoson--we got this name because we weren't first."}
+{"context": "[Context: Player interacts with billboard of the town Twoson]", "response": "If you have time to read this, go to the Chaos Theater immediately."}
+{"context": "[Context: Player interacts with billboard of the town Twoson]", "response": "Are you happy now ? 'Happy Happy Religious Group'"}
+{"context": "[Context: Player interacts with woman in Twoson]", "response": "Welcome ! Would you like me to tell you about Twoson ?"}
+{"context": "[Context: Player asks woman in Twoson to speak about Twoson]", "response": "Twoson has a modern, clean hotel. There is a hospital and the wonderful Chaos Theater. There is the Polestar preschool, and a nice bus station. If you're curious, you might want to check out Burgin Park. It's exciting. East of the town, you find the Peaceful Rest Valley. On the other side of the valley is Happy-Happy Village. There's also a pizza parlor. Do you want to know anything else ? Well, tee hee, I don't know anything else."}
+{"context": "[Context: Player asks woman in Twoson not to speak about Twoson]", "response": "It's too much trouble for me too."}
+{"context": "[Context: Player interacts with old woman]", "response": "I see that you're young but have had some adventures. I think that Paula would be a good friend for you."}
+{"context": "[Context: Player interacts with formal man]", "response": "I'm thinking about catching a bus to Threed. I heard there are ghosts along the way. I wonder if the bus will have to turn around and come back."}
+{"context": "[Context: Player interacts with man]", "response": "Burglin Park seems kind of dangerous, but there's some great stuff there."}
+{"context": "[Context: Player interacts with girl]", "response": "That stupid slob, the Apple Kid, always asks me for something to eat. He's the inventor-- he should invent some food for himself."}
+{"context": "[Context: Player interacts with girl]", "response": "I'm nuts about this one kid inventor. No, not that airheaded, dweeby Apple Kid. I'm talking about the incredibly hot Orange Kid !"}
+{"context": "[Context: Player interacts with girl]", "response": "People in Happy-Happy Village are fanatical about a strange religion. Maybe they've got some sort of bad fever. Be careful."}
+{"context": "[Context: Player interacts with strange man]", "response": "I saw some weird bad guy following Paula. This guy gave me the creeps."}
+{"context": "[Context: Player interacts with boy, after Paula goes missing]", "response": "Paula isn't here ! She suddenly left, and I don't know where she went."}
+{"context": "[Context: Player interacts with girl, after Paula goes missing]", "response": "I heard Paula was kidnapped, but it's still unconfirmed."}
+{"context": "[Context: Player interacts with boy, after Paula goes missing]", "response": "I hear that a girl named Paula was kidnapped while helping out at the Polestar preschool."}
+{"context": "[Context: Player interacts with dog, after Paula goes missing]", "response": "(There was a kidnapping ! Believe me, even though I'm just a dog. Woof !)"}
+{"context": "[Context: Player interacts with mole]", "response": "(I'm not an enemy. I'm just a friendly mole. I'll tell you how to distinguish between your friends and enemies. It's easy to tell an enemy just by looking at them. Enemies look like humans with weird-colored faces. Beware of them. However... you can't get more powerful if you avoid your enemies.)"}
+{"context": "[Context: Player interacts with rich man driving a car]", "response": "I always see you walking around. Walking is good for your health."}
+
+//Inside a Twoson building
+{"context": "[Context: Player interacts with boy]", "response": "Dad and Mom have left for Happy-Happy Village. They wannna meet with the founder of the religion there."}
+{"context": "[Context: Player interacts with girl in Twoson]", "response": "Did you know that two young inventors live in this town ? I want to invent something, too."}
+{"context": "[Context: Player interacts with woman]", "response": "My daughter left for the big city to become a superstar. She's using a stage name-- Vein... oh, vein something...she's working hard."}
+{"context": "[Context: Player interacts with nerd]", "response": "I have a lot of old, broken junk, but I hate to throw anything away. If you have a friend who is knowledgeable about mechanics, that person might be able to fix something for you overnight ... Man, a friend like that would be so handy..."}
+{"context": "[Context: Player interacts with cat]", "response": "Meow."}
+{"context": "[Context: Player knocks on door in Twoson]", "response": "I've told you a thousand times. 'munch, munch' I won't join the Happy Happy Religious Group. 'munch, munch, munch' If you get pushy with me, I'll pelt you with peanuts ! 'munch, munch'"}
+{"context": "[Context: Player knocks on door in Twoson]", "response": "If you're looking for Venus's house, it's next door."}
+
+//Mach Pizza
+{"context": "[Context: Player interacts with Mach Pizza restaurant worker]", "response": "Welcome to Mach Pizza ! We don't sell pizza here. We only deliver. Let me give you our number so you can place an order sometime. The best pizza is Mach Pizza. The number is... 'psst psst psst'. You got that ?"}
+{"context": "[Context: Player interacts with Mach Pizza restaurant worker]", "response": "'Munch'munch'gulp' Uh... no, I didn't take a piece of pizza. I would never think of doing that ! I was delicious, though. Enjoy ! As you may know, you need to order by phone, okay ?"}
+{"context": "[Context: Player interacts with punk in bicycle shop]", "response": "This is the cycle shop 'Punk-Sure'! Bicycles are so much fun and are so convenient... It's a lot faster than walking. You'll be really popular with the biking crowd. Do you want a bicycle ?"}
+{"context": "[Context: Player asks to buy a bicycle in bicycle shop]", "response": "Unfortunately, we don't have any more bikes for sale. We only have rentals. Do you want to rent one ?"}
+{"context": "[Context: Player doesn't ask for a bicycle in bicycle shop]", "response": "Oh... you don't know how to ride a bike. Me neither."}
+{"context": "[Context: Player asks to rent a bicycle in bicycle shop]", "response": "I really like your straight-forward style. I'll tell you what, I'll let you borrow a bike for free. (Player got the Bicycle.) You know that two people can't ride on one bicycle, so of course three or four people on a bike would be impossible ! Did you also know that you can't ride a bike with anything following you ? Teddy bears, for example... Carrying a bear and riding is impossible for you. And don't even think about riding a bike into a cave."}
+{"context": "[Context: Player asks to rent a bicycle in bicycle shop, but has too many items]", "response": "You have too many items. Why don't you get rid of something and come back. I know you want it now, but my hands are tied..."}
+{"context": "[Context: Player asks to rent a bicycle in bicycle shop after already renting a bicycle]", "response": "Didn't you already borrow a bicycle ? We don't have any more right now."}
+{"context": "[Context: Player interacts with punk in bicycle shop after already renting a bicycle]", "response": "You're here to return your bike ? Look how low your seat is ! Geez, you must have short legs. That's it ! I'll call you stubby legs ! Hey ! Stubby legs !"}
+
+//Hospital
+{"context": "[Context: Player interacts with sign in hospital]", "response": "(To recover or not depends on luck. Believe in your luck. Believe your doctor also. The Doctor believes in his luck."}
+{"context": "[Context: Player interacts with weird man in hospital]", "response": "Though you may not believe it, I'm a healer"}
+{"context": "[Context: Player interacts with nurse in hospital]", "response": "I'm not busy right now. Shall I explain about the hospital system ?"}
+{"context": "[Context: Player interacts with nurse in hospital]", "response": "My shot didn't hurt. I'm sure everyone is talking about it, but don't worry about me."}
+{"context": "[Context: Player interacts with doctor in hospital]", "response": "I can examine each one of you for $20."}
+{"context": "[Context: Player interacts with patient in hospital in the town Twoson]", "response": "I wanted to see the circus in Threed, the next town over, but I hurt my leg in the Peaceful Rest Valley."}
+{"context": "[Context: Player interacts with nerd in hospital in the town Twoson]", "response": "I had an argument with my friend about Happy-Happyism."}
+{"context": "[Context: Player interacts with patient in hospital in the town Twoson]", "response": "I got bit by zombies in Threed, the next town over, so I'm stuck in this hospital. I left something good at the Threed Hospital, but now I can't go get it because the bus can't get through the tunnel."}
+{"context": "[Context: Player interacts with woman in department store]", "response": "Do you want to buy a ticket for the Runaway Five show ?"}
+{"context": "[Context: Player asks to buy ticket from woman in department store]", "response": "The main floor and balcony seats are sold out. We only have box seats, which cost 20 dollars. Would that be okay ? Oh, wait... the box seats sold out a long time ago. Oops. My mistake. The box seats are the most popular."}
+{"context": "[Context: Player rejects the offer of woman in department store to buy ticket]", "response": "Oh, I mistook you for a customer."}
+{"context": "[Context: Player interacts with worker in department store]", "response": "Would you like to return something ?"}
+{"context": "[Context: Player asks woman in department store for help with returning an item]", "response": "What do you want to return ? The Cookie ? We can give you back $3. Would you like to do that ?"}
+{"context": "[Context: Player successfully returns item in department store]", "response": "Thank you very much."}
+{"context": "[Context: Player tries to return a strange item to department store worker]", "response": "We're very sorry, but we don't deal with that product. Do you have anything else ?"}
+{"context": "[Context: Player confirms they don't want to return an item to department store worker]", "response": "Oh, that's good. Please stop by again."}
+{"context": "[Context: Player interacts with man in department store]", "response": "This department store isn't crowded. I like that."}
+{"context": "[Context: Player interacts with man in department store]", "response": "I always feel much better after hearing my mom's voice over the phone. I was really homesick recently, and my mom cheered me right up. You should call your mom sometime. Believe me, those melancholy feelings will be gone before you know it."}
+{"context": "[Context: Player interacts with girl in department store after meteor falls in Onett]", "response": "I heard a meteorite crashed onto a hilltop near Onett. That must have been exciting !"}
+{"context": "[Context: Player interacts with old lady in department store in Twoson]", "response": "I think that my grandchild is older than you. He's a famous inventor. He lives here, and people call him Orange Kid. He seems to be popular with the girl, because he's...groovy ?"}
+{"context": "[Context: Player interacts with girl in department store]", "response": "Yum yum... mmm... I'm eating a skip sandwich. It makes you want to start skipping ! I saw it on a TV ad, and I just had to try one. I'll bet I can really move after eating this..."}
+{"context": "[Context: Player interacts with restuarant worker]", "response": "Hello, may I take your order ? (smile, smile) What can I get for you ?"}
+{"context": "[Context: Player orders item from restuarant worker]", "response": "Thank you very much. (smile, smile)"}
+{"context": "[Context: Player receives item from restuarant worker]", "response": "Have a nice day ! (smile, smile)"}
+{"context": "[Context: Player interacts with chef]", "response": "Hello. May I help you ? What shall I get you ?"}
+{"context": "[Context: Player orders item from chef, but has too many items]", "response": "You have so many belongings... You just can't carry any more !"}
+{"context": "[Context: Player orders item from chef successfully]", "response": "Thank you very much."}
+{"context": "[Context: Player receives item from chef]", "response": "Please come again."}
+{"context": "[Context: Player orders item from chef, but doesn't have enough money]", "response": "It seems like you don't have enough money. Do you have any other orders ?"}
+{"context": "[Context: Player interacts with girl in Twoson]", "response": "I wanna visit my boyfriend in Threed'cept the bus won't go there. I wonder why."}
+{"context": "[Context: Player interacts with boy in department store]", "response": "That teddy bear they sell over there... I heard it helps in battle. I don't know what they're talking about. It looks like a plain ol' teddy bear to me..."}
+{"context": "[Context: Player interacts with boy in Twoson]", "response": "Happy-Happy Village is getting to be more and more blue. Do you get it ?"}
+{"context": "[Context: Player interacts with department store worker]", "response": "Hello there ! How may I help you ?"}
+{"context": "[Context: Player asks to buy from department store worker]", "response": "Can I get you anything ?"}
+{"context": "[Context: Player asks to sell to department store worker]", "response": "What do you want to sell ?"}
+{"context": "[Context: Player orders item from department store worker, but doesn't have enough money]", "response": "Excuse me, uhhh... you don't seem to have enough money."}
+{"context": "[Context: Player attempts to sell an important item]", "response": "I am sorry, but we cannot buy the ATM card."}
+{"context": "[Context: Player completes interaction with department store worker]", "response": "Please come again."}
+{"context": "[Context: Player interacts with department store worker]", "response": "Hi ! Can I help you ?"}
+{"context": "[Context: Player interacts with woman]", "response": "Are you here just to say 'Hi' ? What a loser !"}
+
+//Bus Station
+{"context": "[Context: Player interacts with boy at bus stop]", "response": "To take the bus, or not to take the bus... hmmm. I get scared pretty easily..."}
+{"context": "[Context: Player interacts with bus driver]", "response": "That's right, I'm a bus driver. For now, I'm resting. Life is long... take it easy, chubs. Why don't you check out your town map and learn about this area."}
+{"context": "[Context: Player interacts with bus driver without a map]", "response": "You don't have a town map ? You didn't borrow one from the Onett library ?"}
+{"context": "[Context: Player interacts with man at bus stop]", "response": "This town's bus system is a little strange. Be sure to check the bus stop signs. I wonder who came up with this system ?"}
+{"context": "[Context: Player interacts with old lady]", "response": "I was in the last war, so I'm not scared of ghosts. Actually, I'm more scared of my old lady, ha !"}
+{"context": "[Context: Player checks bus schedule]", "response": "(Player checked the bus schedule.)"}
+{"context": "[Context: Player checks bus schedule, with the next bus arriving late]", "response": "(It looks like the next bus will come pretty soon.)"}
+{"context": "[Context: Player checks bus schedule, with the next bus arriving very late]", "response": "(It looks like it's going to be a while before the next bus comes.)"}
+{"context": "[Context: Player interacts with bus driver in Twoson]", "response": "Yep, this is the bus to Threed, but, ...I'm not sure if we can get there or not. The fare is $2. ...do you want to go ?"}
+{"context": "[Context: Player purchases bus pass from bus driver, en route to a dangerous town]", "response": "Okay. Let's give it a shot. ...I have a feeling this could get ugly, though."}
+{"context": "[Context: Player doesn't purchase bus pass from bus driver, en route to a dangerous town]", "response": "...Yep, I personally think it's better if you don't go. ...I'm also not real confident about getting there."}
+{"context": "[Context: Player is riding in a bus out of Twoson, which suddenly turns around]", "response": "(For some reason, the bus returned to Twoson.) ...Yep ! Just like I thought... ...Okay, I'm starting to get the creeps... We're going back to the bus station. Do you want to get off here ?"}
+
+//Twoson Hotel
+{"context": "[Context: Player interacts with sign outside Twoson hotel]", "response": "'Twoson Hotel' 50 dollars per night for a single room."}
+{"context": "[Context: Player interacts with doorman outside hotel]", "response": "Welcome to Hotel Onett. A one night stay will cost you $50. Would you like to stay ?"}
+{"context": "[Context: Player purchases room at hotel]", "response": "Have a nice stay."}
+{"context": "[Context: Player doesn't purchase room at hotel]", "response": "See you next time."}
+{"context": "[Context: Player tries to purchase room at hotel, but doesn't have enough money]", "response": "It looks like you don't have $50..."}
+{"context": "[Context: Player wakes up at hotel]", "response": "Good morning. Did you sleep well ?"}
+{"context": "[Context: Player interacts with bellhop at fancy hotel]", "response": "You must be quite a rich boy to stay at such a nice, first class hotel like this one."}
+{"context": "[Context: Player interacts with bellhop at fancy hotel in Twoson]", "response": "How about reading the newspaper before you go ? Here is this morning's Twoson Tribune headline... 'Ghosts found to inhabit tunnel to Threed'"}
+{"context": "[Context: Player interacts with rich man]", "response": "What ? So... What ? Huh ? Pardon ? Geez... Mmm ? You're annoying ! Dang me ! Yeah, yeah ! Ah, ha ha ! Hey, you ! Later days, pal ! Ah ! Hah hahhhh... It's sooo hot today. It rocks ! Is it cold today ? Oh ho ho ! See ya ! Here, get yourself a juice or something... 'Ka-ching' (Player got 50 dollars.) Good luck, ok ?"}
+{"context": "[Context: Player interactss with boy with mushroom on his head]", "response": "Do I have a mushroom on my head ?"}
+{"context": "[Context: Player tells boy with mushroom on his head that he has a mushroom on his head]", "response": "That's what I thought... Recently, I couldn't walk quite right. It was because of this mushroom. It's actually kind of fun, so I'll leave it there."}
+{"context": "[Context: Player tells boy with mushroom on his head that he doesn't have a mushroom on his head]", "response": "You're one of those people that says 'no' right off the bat to any question, right ?"}
+{"context": "[Context: Player interacts with boy with mushroom on his head]", "response": "Don't you think I look stylish with the mushroom ?"}
+
+//Polestar Preschool
+{"context": "[Context: Player interacts with girl at preschool]", "response": "When I grow up, I wanna be juuuust like Paula."}
+{"context": "[Context: Player interacts with girl at preschool after Paula goes missing]", "response": "Well, I wanted to play with Paula, but she's gone somewhere..."}
+{"context": "[Context: Player interacts with baby at preschool after Paula goes missing]", "response": "Paula is like a mother to me. You may not be able to comprehend my emotions. I might have a baby face, but I possess the mind of an adult. I beg your pardon."}
+{"context": "[Context: Player interacts with Paula's mother]", "response": "Whistle, whistle anywhere. It makes me smile all the while. I'm Paula's mother. I'm busy taking care of these kids. You shouldn't worry about Paula. She has a guardian angel, it seems."}
+{"context": "[Context: Player interacts with Paula's father]", "response": "So, you wanna see Paula ? Many come here to see her miraculous powers, but they're just leeches. So... are you from a TV station, or what ?"}
+{"context": "[Context: Player tells Paula's father they are from a TV station]", "response": "Please leave. My daughter doesn't want to talk to media monkeys like you."}
+{"context": "[Context: Player tells Paula's father they aren't from a TV station]", "response": "To meet you or not to meet you can only be decided by aula. Paula has said that she would only meet with a boy named Player. So you're Player ! You're the one that was in Paula's dream. You will save the world ! Let me go call Paula."}
+{"context": "[Context: Player interacts with Paula's father after Pauls goes missing]", "response": "She doesn't seem to be here. I wonder where she went ? I'm sorry, could you come back later ?"}
+{"context": "[Context: Player interacts with Paula's father after Pauls goes missing]", "response": "Now where did she go ? I'm sorry, could you come back after a wile ?"}
+{"context": "[Context: Player interacts with Paula's father after Pauls goes missing]", "response": "P P Paula's not home yet. Everdred in Burglin Park might know something. Oh, boy ! Now I'm really worried."}
+{"context": "[Context: Player interacts with Paula's father after Pauls goes missing]", "response": "P P Paula !! Where are you ? It's time for a yummy piece of pie !"}
+{"context": "[Context: Player interacts with sign outside Orange Kid's house]", "response": "(Home of Orange Kid, inventor)"}
+{"context": "[Context: Player interacts with Orange Kid]", "response": "Greetings. I'm Orange Kid, the inventor. Have you heard of me ? I'm a bit embarrassed about my reputation. I have a lot of inventions in development, but I'm running short of cash. I'm basically a happy-go-lucky person, so I'm not worried. You know, I'm working on this machine that would really help you in Peaceful Rest Valley. I hope it's ready soon... What ? You're actually willing to help finance the project ?"}
+{"context": "[Context: Player agrees to finance inventor's project]", "response": "Oh goody ! Would it be okay to get $200 to buy materials ?"}
+{"context": "[Context: Player agrees to pay for inventor's invention]", "response": "Thank you very much ! Your support should have a tremendous impact on all mankind. Let me give you my new 'Super Orange Machine.' I call it 'Suporma' for short. (Ness got the Suporma.) Please use it for spreading peace and goodwill on Earth."}
+{"context": "[Context: Player refuses to finance inventor's projcet]", "response": "I guess I was just too hopeful. Oh well, never mind."}
+{"context": "[Context: Player refuses to pay for inventor's invention]", "response": "I guess I was just too hopeful. Oh well, never mind."}
+{"context": "[Context: Player agrees to finance inventor's project, but doesn't have enough money]", "response": "What ?! You don't have that much money ? Well, perhaps you shouldn't be yappin' about having cash then, buddy."}
+{"context": "[Context: Player tries to take 'Suporma, but has too many items]", "response": "Ah ha ! You have too many items. I hope you'll accept the Suporma, even if you have to toss some of your food..."}
+{"context": "[Context: Player interacts with inventor as they work]", "response": "I'm hard at work... don't worry, my brilliant invention will be ready soon. Okay, okay... I'll get back to work !"}
+{"context": "[Context: Player interacts with sign outside Apple Kid's house]", "response": "(Home of Apple Kid, inventor)"}
+{"context": "[Context: Player interacts with Apple Kid]", "response": "Well, I have sort of neglected doing my housework... I know it's a bit of a pig sty, but anyway... I'm Apple Kid. I haven't taken a bath in quite a while, so I may be kind of stinky. By the way, I'm starving. Do you have something to eat ? If you do, can I have some ?"}
+{"context": "[Context: Player agrees to give Apple Kid food]", "response": "What can you give me ?"}
+{"context": "[Context: Player refuses to give Apple Kid food]", "response": "Well, go ahead and make yourself comfortable anyway. You can flop down anywhere."}
+{"context": "[Context: Player offers non-edible item to starving child]", "response": "Please choose something edible... I'm not a garbage can, you know."}
+{"context": "[Context: Player gives starving inventor food]", "response": "Thanks. You seem very nice. Uh, I wonder if... Maybe you would like to invest some money in my inventions ?"}
+{"context": "[Context: Player agrees to finance inventor's inventions]", "response": "Yes ! Yes ! Yes ! Oh. Excuse me. I mean thank you ! By the way, I could really use $200."}
+{"context": "[Context: Player gives inventor two hundred dollars]", "response": "Thank you. I won't let you down."}
+{"context": "[Context: Player attempts to give inventor money, but doesn't have enough money]", "response": "Oh, you don't have any money, do you ? Well, go ahead and make yourself comfortable anyway. You can flop down anywhere."}
+{"context": "[Context: Player interacts with mouse]", "response": "I am a mouse. No one has given me a name yet."}
+{"context": "[Context: Player interacts with mouse after helping mouse's master]", "response": "I am a mouse. No one has given me a name yet. You took care of my master. In return, I want to give you this. Please take it and say nothing. (Player got the Receiver phone.) Oh ! I must be in your way ! 'zziipp !'"}
+{"context": "[Context: Player attempts to receive item from mouse, but has to many items]", "response": "Unfortunately, you have too many items. Therefore, I can't give this to you."}
+{"context": "[Context: Player interacts with Hint Man]", "response": "Now wait a minute, youngster ! I could give you a great hint for just $50. You'd like a hint, wouldn't you ?"}
+{"context": "[Context: Player purchases Hint Man's hint in Twoson]", "response": "Have you been to Apple Kid and Orange Kid's houses ? Their places are south of the Polestar Preschool. They are great inventors ...to be. They need some financial help. If you help them ...later, for sure, without fail, certainly, something wonderful will happen. Believe me, this hint is worth a lot more than you paid. That's it for today."}
+{"context": "[Context: Player refuses to purchase hint from Hint Man]", "response": "So you're telling me that you don't want a hint ? You're either awfully confident or $50 is too much to pay. Anyway, a young man like you is very unusual these days. If you happen to need a hint, c'mon back ! I'm here all the time..."}
+{"context": "[Context: Player interacts with Hint Man a second time]", "response": "Do you want to hear the hint once more ? This is a special service just for you..."}
+{"context": "[Context: Player attempts to purchase Hint Man's hint, but doesn't have enough money]", "response": "Oh, you don't have any money. Don't you understand ? This is how I make my living... I can't just give you a hint for free, kid."}
+
+//Burglin Park
+{"context": "[Context: Player interacts with sign outside Burglin Park]", "response": "(One of the biggest markets you'll ever find --now in Burglin Park.)"}
+{"context": "[Context: Player interacts with man in park]", "response": "The boss of Burglin Park is Everdred. He's got ties to burglaries and kidnappings in this area. He's a scary guy."}
+{"context": "[Context: Player interacts with boy in park]", "response": "Everdred has always watched over Burglin Park. That's why we don't have to bribe any crooked cops."}
+{"context": "[Context: Player interacts with woman in park next to food cart]", "response": "I came to buy condiments... I wonder what would be good... The right condiment makes a dish taste better, while the wrong one makes it taste worse. If the condiment matches the food, you will get more power than if you ate the food item plain."}
+{"context": "[Context: Player interacts with vendor in park]", "response": "Hello ! Would you like some seasonings to add to your foods at meal time ? They are really quite miraculous ! Whenever you eat something, the seasonings will sprinkle automatically. They come in these cute little packets and jars. What kind do you like ?"}
+{"context": "[Context: Player purhcases ketchup packet]", "response": "You want the Ketchup packet ? Thank you. Do you want to buy anything else ?"}
+{"context": "[Context: Player attempts to purchase item, but has too many items]", "response": "You already have the maximum number of things you can carry. You're going to have to sell some things, or just throw them away. Then come again."}
+{"context": "[Context: Player interacts with man in park run by a crime boss]", "response": "Of course, Everdred isn't a good person, but he's actually quite warm-hearted for a crime boss."}
+{"context": "[Context: Player interacts with pot salesman]", "response": "It makes me feel good to just sit and look at my pots... ...I like pots, but what I really want is the tool shop 'For Sale' Sign. It's right there. Should I steal it ? Hmmm..."}
+{"context": "[Context: Player interacts with egg salesman]", "response": "I sell fresh eggs. They're nutritious ! Please buy this beautiful, beautiful egg ! Please ?"}
+{"context": "[Context: Player asks to buy egg from egg salesman]", "response": "You're concerned about your health, even though you're young. That'll be 12 big ones."}
+{"context": "[Context: Player doesn't ask to buy egg from egg salesman]", "response": "You won't get through your teen years without at least one egg. Please buy this beautiful egg. Please !"}
+{"context": "[Context: Player refuses to buy egg from egg salesman]", "response": "Ok, but your teen years will be ruined just because you didn't buy an Egg."}
+{"context": "[Context: Player purchases egg from egg salesman]", "response": "Okay, here you are... one egg to go !"}
+{"context": "[Context: Player attempts to purchase egg from egg salesman, but has too many items]", "response": "Eggs are easily broken.There's no way to stuff it in with your other things if you have no more room..."}
+{"context": "[Context: Player interacts with banana saleswoman]", "response": "Would you like some bananas ? Hei kid ! Do you want to buy some ?"}
+{"context": "[Context: Player purhcases banana from banana saleswoman]", "response": "You want the Banana ? Thank you, thank you. I have more bananas... Do you want some more ?"}
+{"context": "[Context: Player doesn't purchase banana from banana saleswoman]", "response": "Well, when you want to eat bananas, I'll be here, selling them !"}
+{"context": "[Context: Player interacts with strange salesman]", "response": "Hey, why don't you buy the world's greatest Ruler."}
+{"context": "[Context: Player agrees to buy from strange salesman]", "response": "Thank you ! That's 2 clams !"}
+{"context": "[Context: Player refuses to buy from strange salesman]", "response": "Do you think it's hot ? Look, I didn't steal it..."}
+{"context": "[Context: Player purchases rule from strange salesman]", "response": "Here you go, one Ruler !"}
+{"context": "[Context: Player attempts to purchase ruler from strange salesman, but has too many items]", "response": "You said 'yes' - that's short and to the point. But you don't have any more room... Get rid of something and come back. I'll be here."}
+{"context": "[Context: Player interacts with street vendor]", "response": "I like to sell my goodies on the street. Sure, flies land on them, but in my opinion, it makes them taste even better ! What would you like ?"}
+{"context": "[Context: Player asks to buy cookie]", "response": "Cookie ? Thank you very much. Do you want to buy anything else ?"}
+{"context": "[Context: Player interacts with street vendor after making a purchase]", "response": "What would you like ?"}
+{"context": "[Context: Player refuses to make a purchase from street vendor]", "response": "Thanks a lot."}
+{"context": "[Context: Player attempts to buy from street vendor, but has too many items]", "response": "You are already carrying too much stuff. You should sell some things, or throw them away, or just leave them somewhere."}
+{"context": "[Context: Player interacts with sketchy vendor]", "response": "I own an antique shop. No one is buying or selling anything, so I was thinking of selling the 'For Sale' Sign that sits in front of me. It's only 98 dollars. Please buy it."}
+{"context": "[Context: Player agrees to purchase 'for sale' sign from sketchy vendor]", "response": "If you want to sell something, use this 'For Sale' Sign. Customers will flock to you."}
+{"context": "[Context: Player refuses to purchase from sketchy vendor]", "response": "I bet you'll regret not buying it."}
+{"context": "[Context: Player attempts to purchase from sketchy vendor, but has too many items]", "response": "I can't help you if you're carrying too many things..."}
+{"context": "[Context: Player interacts with sketchy vendor after purchasing 'for sale' sign from them]", "response": "So, did the 'For Sale' Sign help you ? Yeah, I was the one that sold it to you."}
+{"context": "[Context: Player interacts with hippie salesman]", "response": "Hey mon ! You got to expand your mind an' use this stuff creatively. C'mon, buy some of my junk !"}
+{"context": "[Context: Player asks to buy from hippie salesman]", "response": "So, what would you like, mon ?"}
+{"context": "[Context: Player asks to sell to hippie salesman]", "response": "What is it you want to sell ?"}
+{"context": "[Context: Player purchases defense spray from hippie salesman]", "response": "Defense spray ? Thank a lot, mon. Is there anything else you need, mon ?"}
+{"context": "[Context: Player refuses to purchase from hippie salesman]", "response": "A scientific mon might be able to make good use of this here thing..."}
+{"context": "[Context: Player attempts to purchase from hippie salesman, but has too many items]", "response": "Well, you're straining with too many things now. I'll buy the things you don't need, mon."}
+{"context": "[Context: Player ends interaction with hippie]", "response": "Take care, mon !"}
+
+//Everdred's Home
+{"context": "[Context: Player interacts with crime boss for the first time]", "response": "Wah ha ha ha ha ! Why don't we chat later-after we've locked horns !"}
+{"context": "[Context: Player defeats crime boss, after Paula is kidnapped, and after crime boss jumps off the roof]", "response": "Yes, I'm Everdred, boss of Burglin Park. When I jumped off the roof, I twisted my ankle. Anyway, I lost and nothing will change that. You know, you're pretty strong. Yeah, I know that you want to find out about a girl named Paula. She went off to a secret hideout in the Peaceful Rest Valley. A chubby boy and a weird guy in a blue outfit have kidnapped her, though. They said that they were going to make Paula some sort of human sacrifice. They were definitely hard-core strange. You know, she might be gone already. You'd better hurry. If you save Paula, be sure to come back here, okay ? Don't forget !"}
+{"context": "[Context: Player interacts with crime boss after defeating them]", "response": "If you save Paula, be sure to come back here, okay ? Don't forget !"}
+
+//Road to Peaceful Rest Valley
+{"context": "[Context: Player interacts with sign close to Happy-Happy Village]", "response": "(Happy-Happy Village ahead.)"}
+{"context": "[Context: Player interacts with sign close to Happy-Happy Village]", "response": "(Cross bridge to Happy-Happy Village)"}
+{"context": "[Context: Player interacts with man close to Happy-Happy Village]", "response": "If you go to the east, you could run into trouble. Peaceful Rest valley and Happy-Happy Village are waiting for you. I've also heard that there are UFO's in the Peaceful Rest Valley."}
+{"context": "[Context: Player interacts with sign next to cave and Peaceful Rest Valley]", "response": "(Peaceful Rest Valley ahead. Proceed through cave.)"}
+{"context": "[Context: Player interacts with girl]", "response": "Humm dee dum dum dum. I'm hunting for mushrooms ! I'm going to collect a ton !"}
+{"context": "[Context: Player has a mushroom on their head and interacts with girl hunting for mushrooms]", "response": "Hey ! Would you be willing to sell that mushroom on your head for $50 ?"}
+{"context": "[Context: Player sells mushroom to girl]", "response": "Thank you. Such a great mushroom. I'm so happy I got it."}
+{"context": "[Context: Player refuses to sell mushroom to girl]", "response": "Ohhh... It's your special mushroom."}
+{"context": "[Context: Player interacts with mole]", "response": "(I'm not an enemy. I'm just a regular mole. Would you like to know about how to survive battles ?)"}
+{"context": "[Context: Player asks mole for advice]", "response": "(You may have noticed that, when you have been badly hurt in battle, you may survive a mortal attack and still have 1 HP. If this has happened, it was because of you Guts. Your survive may depend on your Guts level. Also, more Guts helps you get more SMAAAAASHing hits. Beyond Guts, you should have noticed that it takes some time for damage to be taken from you. This is because of the rolling action of your HP meter. Oops ! I mean your life. If an enemy deals mortal damage to you, but you defeat all enemies before your life is gone, you survive. This is all know.)"}
+{"context": "[Context: Player refuses mole's advice]", "response": "(Well, you seem to know a lot already, even if you don't look like it.)"}
+{"context": "[Context: Player is strong and interacts with mole]", "response": "(I am not your enemy. I am just a plain ol' mole. You are certainly stronger than you were while wandering around Onett. Have you ever suddenly gotten the 'You Won' message when you met a weak enemy ? That's sure-fire proof that you've become stronger. You don't want to waste your time fighting wimpy enemies, do you ?)"}
+{"context": "[Context: Player interacts with pencil-shaped iron statue]", "response": "(For some weird reason, a pencil-shaped iron statue is blocking the path.)"}
+
+//Inventions
+{"context": "[Context: Player gets a call from Apple Kid]", "response": "Hello... this is the Apple Kid. I've just finished work on this great invention ! Get over here as fast as you can ! This thing is soooo cool ! See you soon ! Slam ! Beeeep..."}
+{"context": "[Context: Player interacts with Orange Kid after getting call from Apple Kid]", "response": "Are you looking for that so-called genius, Apple Kid ? As a true genius, I'll tell you that he's in Burglin Park, looking for you."}
+{"context": "[Context: Player interacts with inventor after completing invention]", "response": "I'm feeling really out of it because I've been working all night, but finally the Pencil eraser is ready. This machine will eradicate all pencil-shaped figures in just one second. It's incredibly powerful. Just don't use it near a shop that sells pencils. Here, it's yours now. (Player got the Pencil eraser.) If I invent some other brilliant item, I'll call you."}
+{"context": "[Context: Player attempts to receive inventor's invention, but has too many items]", "response": "Oh, it won't fit in your backpack. Come back after you have gotten rid of some stuff."}
+{"context": "[Context: Player listens to inventor explain their invention]", "response": "This machine will eradicate all pencil-shaped figures in just one second. It's incredibly powerful. Just don't use it near a shop that sells pencils. I'll call you if I invent another brilliant item."}
+{"context": "[Context: Player interacts with Apple Kid's mouse]", "response": "I am a mouse. My master, Apple Kid, has been waiting for you. We started to nod off while waiting..."}
+{"context": "[Context: Player uses Pencil Eraser on iron pencil statue]", "response": "Player used the Pencil Eraser. For some weird reason, the iron pencil statue was erased !"}
+{"context": "[Context: Player interacts with man on impassable bridge]", "response": "I wonder who made the bridge impassable ? Why would someone do this ? Crud..."}
+
+
+
+//Happy Happy Village
+{"context": "[Context: Player interacts with sign in Happy Happy Village]", "response": "Welcome to Happy Happy Village !"}
+{"context": "[Context: Player interacts with cult member]", "response": "One day, Mr. Carpainter received a revelation. He now speaks the real truth."}
+{"context": "[Context: Player interacts with cult member]", "response": "Excuse me, tourist. I'm collecting donations to help protect the world from contaminants. Donate whatever you can."}
+{"context": "[Context: Player agrees to donate to cult member]", "response": "How much would you like to donate ?"}
+{"context": "[Context: Player donates to cult member]", "response": "You good deed will be rewarded. Here's a postcard for you."}
+{"context": "[Context: Player attempts to accept postcard, but has too many items]", "response": "I wanted to give you a postcard. But... you can't accept it. You have too many items."}
+{"context": "[Context: Player refuses to donate to cult member]", "response": "I'll be your shadow, then."}
+{"context": "[Context: Player agrees to donate to cult member, but doesn't have enough money]", "response": "...no jokes allowed."}
+{"context": "[Context: Player interacts with cult member]", "response": "When I painted everything blue, as Mr. Carpainter said, my wife who had run out on me returned home !"}
+{"context": "[Context: Player interacts with man in Happy Happy Village]", "response": "Mr. Carpainter wants a girl. No, I don't mean it like that. I meant he's looking for a girl who can be the high priestess of Hppy-happyism. I heard he's already got her."}
+{"context": "[Context: Player interacts with cult member]", "response": "Mr.Carpainter communicates with the divine, so he is able to deliver inspired messages."}
+{"context": "[Context: Player interacts with cult member]", "response": "You want to talk to Mr. Carpainter directly ? you must think you're pretty important, and boy do you have a lot of nerve ! You deserve to be struck by lightning."}
+{"context": "[Context: Player interacts with cult member, obsessed with the color blue]", "response": "Blue, blue ! I wish for everything in this world to become blue."}
+{"context": "[Context: Player interacts with cult member, obsessed with the color blue]", "response": "I think that those who won't paint everything blue are opposed to peace. I want them all to listen, even if it requires kicking their butts."}
+{"context": "[Context: Player interacts with cult member after Paula was kidnapped]", "response": "Psss psss Psss psss That overweight kid helped me. We kidnapped Paula. You know, she's hidden in a mountain cabin. Oh, oh ! Now I've done it ! I thought you were one of us ! You know I was joking ! Ha ha ha !... Just forget about this... I won't tell you anything."}
+{"context": "[Context: Player interacts with cult member, obsessed with the color blue]", "response": "There's a place ahead that can't be painted blue. It's a strange and anti-blue place. I can't stop thinking about it... and I can't even go near that place."}
+{"context": "[Context: Player interacts with woman next to cave]", "response": "I heard many footprints exist deep down in the east cave. People call that place Lilliput Steps, and it makes them feel uneasy."}
+{"context": "[Context: Player interacts with weird man]", "response": "Though you may not believe it, I'm a healer. If you have some illness that can not be treated at the hospital, it's my job to cure you."}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
+{"context": "[Context: ]", "response": ""}
 {"context": "[Context: ]", "response": ""}
 {"context": "[Context: ]", "response": ""}
 {"context": "[Context: ]", "response": ""}
