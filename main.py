@@ -6,31 +6,61 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 
 
 print("dataset...")
-dataset = load_dataset("json", data_files="EBnpc_dataset.json", split="train")
+dataset = load_dataset("json", data_files="dialogue_dataset.jsonl", split="train")
 print("dataset example: \n")
 print(dataset[0])
+print("Type of example:", type(dataset[0]))
 
 print("\n model and tokenizer")
-tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small", padding_side="left")
+tokenizer = AutoTokenizer.from_pretrained("./fine_tuned_AGAIN")
 tokenizer.pad_token = tokenizer.eos_token
-#tokenizer.padding_side = "left"
-model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
+#model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
+model =  AutoModelForCausalLM.from_pretrained("./fine_tuned_AGAIN")
 print("\n model and tokenizer ready")
 
 print("\n generation test")
-input_text = "player interacts with Mr. Saturn"
-input_ids = tokenizer.encode(input_text + tokenizer.eos_token, return_tensors="pt")
+#input_text = "[Context] Player interacts with monkey\n[Response]\n"
+input_text = "hey how are you?"
+prompt_text = input_text + tokenizer.eos_token
+input_ids   = tokenizer(prompt_text, return_tensors="pt").input_ids.to(model.device)
+#prompt = "[Context] Player interacts with man\n[Response]\n"
+#input_ids = tokenizer(prompt, return_tensors="pt").to(model.device)
 
+# output_ids = model.generate(
+#     input_ids, 
+#     max_length=40, 
+#     pad_token_id=tokenizer.eos_token_id, 
+#     temperature=0.7, #high means more random and diverse
+#     do_sample=True, 
+#     repetition_penalty=1.3,
+#     no_repeat_ngram_size=2,
+#     top_p=0.9, #high focuses on diversity, wider range of words 
+#     eos_token_id=tokenizer.eos_token_id
+# )
+
+#for dialogue (online) dataset 
 output_ids = model.generate(
-    input_ids, 
-    max_length=1000, 
-    pad_token_id=tokenizer.eos_token_id, 
-    temperature=0.7, #high means more random and diverse
-    do_sample=True, 
-    top_p=0.5 #high focuses on diversity, wider range of words 
+    input_ids,
+    max_new_tokens=12,
+    do_sample=False,
+    top_k=20,
+    top_p=0.9,
+    temperature=2.0,
+    repetition_penalty=1.5,
+    no_repeat_ngram_size=3,
+    eos_token_id=tokenizer.eos_token_id,
 )
-#response = tokenizer.decode(output_ids[:, input_ids.shape[-1]:][0], skip_special_tokens=True)
-response = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+# prompt_len   = input_ids.shape[-1]
+prompt_len     = input_ids.size(-1)
+new_token_ids  = output_ids[0, prompt_len:]  # everything after your prompt
 
-print("\"ai\": ", response)
+reply = tokenizer.decode(new_token_ids, skip_special_tokens=True).strip()
+
+#response = tokenizer.decode(output_ids[:, input_ids.shape[-1]:][0], skip_special_tokens=True)
+#response = tokenizer.decode(output_ids[0], skip_special_tokens=True).split("[Response]")[-1].strip() # FOR EB
+
+#response = tokenizer.decode(new_tokens, skip_special_tokens=True).strip() # FOR DIALOGUE dataset (w/o dialgue dataset)
+
+
+print("\"ai\":", reply)
 print("Padding side:", tokenizer.padding_side)
