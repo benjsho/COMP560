@@ -8,21 +8,38 @@ model     = AutoModelForCausalLM.from_pretrained("./fine_tuned_AGAIN")
 # make sure model stops on your EOS
 model.config.eos_token_id = tokenizer.eos_token_id
 model.config.pad_token_id = tokenizer.eos_token_id
+system_prompt = (
+    "System: You are a professional, neutral assistant. "
+)
+bad = tokenizer(
+    ["i like it", "i love you", "i like you"], 
+    add_special_tokens=False
+).input_ids
 
 # ── 2) Generation settings
 gen_cfg = GenerationConfig(
     do_sample = True,
-    top_k=200,
-    min_p= 0.05,
-    top_p=None,
+    top_k=30,
+    # min_p= 0.1,
+    top_p=0.6,
     no_repeat_ngram_size=4,
+    repetition_penalty = 1.1,
     max_new_tokens=60,
     eos_token_id=tokenizer.eos_token_id,
     pad_token_id=tokenizer.eos_token_id,
-    temperature = 0.5
+    temperature = 0.1
 )
+gen_cfg.bad_words_ids  = bad
 model.generation_config = gen_cfg
-
+conversation = system_prompt + "\n"
+while True:
+    user = input(">> User: ")
+    conversation += f"User: {user}\nBot:"
+    inputs = tokenizer(conversation, return_tensors="pt")
+    outputs = model.generate(**inputs)
+    reply = tokenizer.decode(outputs[0, inputs.input_ids.shape[-1]:], skip_special_tokens=True).strip()
+    print("Bot:", reply)
+    conversation += f" {reply}\n"
 # ── 3) Chat loop
 for _ in range(5):
     user_text = input(">> User: ")
