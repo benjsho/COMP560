@@ -1,3 +1,4 @@
+# this is bad, dumb code VVVVVVVVVVVVV
 # from datasets import load_dataset
 # from transformers import (
 #     AutoTokenizer, AutoModelForCausalLM,
@@ -93,9 +94,8 @@ def preprocess(example):
     # split at the "\nBot:" marker
     user_part, bot_part = text.split("\nBot:", 1)
 
-    prompt = user_part + "\nBot:"                  # e.g. "User: hi\nBot:"
+    prompt = user_part + "\nBot:"                  
     target = " " + bot_part.strip() + tokenizer.eos_token
-                                                   # e.g. " Hello there!<|eos|>"
 
     # tokenize the full string so the model sees prompt+target
     enc = tokenizer(
@@ -151,5 +151,5 @@ trainer = Trainer(
 trainer.train()
 
 # 6) SAVE YOUR FINE‑TUNED MODEL
-trainer.save_model("./fine_tuned_Epochs")
+trainer.save_model("./fine_tuned_Epochs") # how its supposed to feel......
 tokenizer.save_pretrained("./fine_tuned_Epochs")

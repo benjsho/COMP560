@@ -1,3 +1,17 @@
+# first program created for this project. 
+# all of these programs are outdated because of the collab.
+# they really only exist at this point to look back on. 
+# the only thing in here not necessarily outdated is WizardDatasetFormatted(and its cleaner, WizardCleanerTwo.py).
+# it's the 8,463 line dataset or whatever. 
+# it's pretty damn good. i'd like to say i hand typed everything. 
+# i didn't. 
+# but i evaluated everything. 
+# and hit ctrl c ctrl v hundreds of times in the process
+# that counts for something, right? 
+# 
+#
+#
+# honestly, it shouldn't
 import torch
 import logging
 from datasets import load_dataset

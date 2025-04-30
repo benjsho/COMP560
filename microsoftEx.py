@@ -1,7 +1,11 @@
+# old. 
+# this example kept flirting with me. 
+# i had to put it down. 
+# lots of history here though. 
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
 import torch
 
-# ── 1) Load & patch
+# ── 1) load & patch@!!!!
 tokenizer = AutoTokenizer.from_pretrained("./fine_tuned_AGAIN", padding_side="left")
 model     = AutoModelForCausalLM.from_pretrained("./fine_tuned_AGAIN")
 
@@ -12,7 +16,7 @@ system_prompt = (
     "System: You are a professional, neutral assistant. "
 )
 bad = tokenizer(
-    ["i like it", "i love you", "i like you"], 
+    ["i like it", "i love you", "i like you"],  # calm down please
     add_special_tokens=False
 ).input_ids
 

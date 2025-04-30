@@ -1,3 +1,4 @@
+# i think this was DialoGPT's model card but modified. i can't even remember anymore. 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 

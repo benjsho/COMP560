@@ -1,3 +1,4 @@
+# old, futile attempt at something. 
 from transformers import pipeline
 generator = pipeline('text-generation', model='EleutherAI/gpt-neo-125M')
 generator("EleutherAI has", do_sample=True, min_length=20)

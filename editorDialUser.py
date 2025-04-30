@@ -1,3 +1,5 @@
+# old. i hardly even remember making this one. 
+
 import json
 
 in_path  = "dialogue_dataset.jsonl"

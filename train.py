@@ -1,3 +1,4 @@
+# initial training program. don't use this. in fact, don't use any of the programs or models in this. 
 from datasets import load_dataset
 from transformers import (
     AutoTokenizer, AutoModelForCausalLM,

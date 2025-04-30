@@ -1,10 +1,24 @@
+# i completely forgot about this one. this one never came to fruition. 
+# cool idea though. 
+# it was when i was committed to the idea of training DialoGPT on an 
+# already proven dataset, then fine tune that model again on some Earthbound s. 
+# it didn't work. 
+# i think fine tuning a four year old model was ultimately my main problem the whole time. 
+# 
+#
+#
+#
+#
+#
+# who would've guessed. 
+
 # finetune_dialoGPT on Cornell Movie-Dialogs Corpus using LoRA (PEFT)
 # Simplified JSONL-based pipeline to fit resource constraints
 
-# 1) Install prerequisites
+# 1)Install prerequisites
 #    pip install transformers datasets accelerate peft
 
-# 2) Imports
+# 2) Immmmports
 import os
 import json
 import zipfile
@@ -17,7 +31,7 @@ from transformers import (
 )
 from peft import LoraConfig, get_peft_model, prepare_model_for_int8_training
 
-# 3) Download & extract Cornell data (if not already)
+# 3) download & extract Cornell data (if not already)
 DATA_DIR = Path("./cornell_corpus")
 DATA_DIR.mkdir(exist_ok=True)
 ZIP_URL = "https://www.cs.cornell.edu/~cristian/data/cornell_movie_dialogs_corpus.zip"
@@ -31,7 +45,7 @@ if not ZIP_PATH.exists():
 with zipfile.ZipFile(ZIP_PATH, 'r') as z:
     z.extractall(DATA_DIR)
 
-# 4) Parse raw files into JSONL-style examples
+# 4) parse raw files into JSONL-style examples
 dialogs_path = DATA_DIR / "cornell movie-dialogs corpus" / "movie_conversations.txt"
 lines_path   = DATA_DIR / "cornell movie-dialogs corpus" / "movie_lines.txt"
 
@@ -42,7 +56,7 @@ with open(lines_path, encoding='iso-8859-1') as f:
         parts = line.split(" +++$+++ ")
         id2line[parts[0]] = parts[-1].strip()
 
-# Build pairs
+# build pairs
 pairs = []
 with open(dialogs_path, encoding='iso-8859-1') as f:
     for conv in f:
@@ -56,14 +70,14 @@ with open(dialogs_path, encoding='iso-8859-1') as f:
             completion = " " + tgt
             pairs.append({"text": prompt + completion})
 
-# 5) Create a Hugging Face dataset from list of dicts
+# 5) create a Hugging Face dataset from list of dicts
 dataset = Dataset.from_list(pairs)
-# Split into train/val (90/10)
+# split into train/val (90/10)
 dataset = dataset.train_test_split(test_size=0.1)
 train_dataset = dataset['train']
 val_dataset   = dataset['test']
 
-# 6) Initialize tokenizer and prepare examples
+# 6) initialize tokenizer and prepare examples
 tokenizer = AutoTokenizer.from_pretrained(
     "microsoft/DialoGPT-medium", padding_side="left"
 )
@@ -77,7 +91,7 @@ def tokenize(batch):
 train_tok = train_dataset.map(tokenize, batched=True, remove_columns=["text"])
 val_tok   = val_dataset.map(tokenize, batched=True, remove_columns=["text"])
 
-# 7) Data collator for causal LM
+# 7) data collator for causal LM
 data_collator = DataCollatorForLanguageModeling(
     tokenizer=tokenizer, mlm=False
 )
