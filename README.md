@@ -7,3 +7,4 @@ Despite massive strides being made in AI chatbots over the last few years, they 
 # Note:
 The Google Collab & Report files are the only relevant ones at this point. The rest are outdated and only included if you want to look at failures. 
 This is a link to the Google Collab: https://colab.research.google.com/drive/1avN02sUc96oJSaOzlbYOHnhvMfvmcghB?usp=sharing 
+This is a link to the fine-tuned TinyLlama model: https://drive.google.com/drive/folders/1ubipD2u_R_V76AFRNFyDAUdDA0Fj0KNT?usp=drive_link 
